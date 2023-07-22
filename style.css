@@ -1,0 +1,65 @@
+.two {
+  margin-left: 3rem;
+}
+
+.email {
+  display: flex;
+}
+
+.time {
+  position: absolute;
+  right: 5px;
+}
+
+.two > div > p > button {
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 7px;
+  background-color: rgb(64, 78, 188);
+}
+.floating-banner {
+  width: 80%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.inside-banner {
+  width: 60%;
+  height: 12rem;
+  background-color: white;
+}
+
+.inside-text {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.inside-text > button {
+  background-color: rgb(43, 103, 231);
+  border: none;
+  border-radius: 2px;
+  padding: 6px;
+  width: 4rem;
+  color: white;
+}
+
+span {
+  position: absolute;
+  left: 17.5rem;
+  top: 45rem;
+}
+
+h3 {
+  position: absolute;
+  right: 37rem;
+  top: 43rem;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

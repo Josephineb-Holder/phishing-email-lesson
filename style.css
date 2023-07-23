@@ -11,9 +11,10 @@
   right: 5px;
 }
 
-.two > div > p > button {
+.two > div > p > .btn {
   color: white;
   border: none;
+  text-decoration: none;
   border-radius: 2px;
   padding: 7px;
   background-color: rgb(64, 78, 188);
@@ -39,12 +40,12 @@
   margin-left: 2rem;
 }
 
-.inside-text > button {
+.inside-text > .btn {
   background-color: rgb(43, 103, 231);
   border: none;
   border-radius: 2px;
-  padding: 6px;
-  width: 4rem;
+  padding: 5px 12px 5px;
+  text-decoration: none;
   color: white;
 }
 
